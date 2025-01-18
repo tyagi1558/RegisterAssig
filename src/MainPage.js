@@ -69,20 +69,20 @@ const MainPage = () => {
 
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row items-center justify-start mt-6">
-          <a
-            className="bg-primary font-semibold text-white px-4 py-2 rounded mb-4 sm:mb-0 sm:mr-4"
-            href="/"
-          >
-            See All Services
-          </a>
-          <a
-            className="flex items-center text-primary font-semibold px-4 py-2"
-            href="/"
-          >
-            <IoIosPlayCircle className="mr-2 text-red-600 text-2xl" />
-            See how it works
-          </a>
-        </div>
+  <a
+    className="bg-primary font-semibold text-white px-4 py-2 rounded mb-4 sm:mb-0 sm:mr-4 cursor-pointer"
+  >
+    See All Services
+  </a>
+  <a
+    className="flex items-center text-primary font-semibold px-4 py-2 cursor-pointer"
+  >
+    <IoIosPlayCircle className="mr-2 text-red-600 text-2xl" />
+    See how it works
+  </a>
+</div>
+
+
       </div>
 
       {/* Right Section */}

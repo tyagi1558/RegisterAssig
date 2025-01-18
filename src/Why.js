@@ -119,6 +119,30 @@ function Why() {
             Everything is put before you with no hidden charges or conditions
           </div>
         </div>
+
+        <div className="bg-[#f1fbf3] p-5 ml-3 w-full max-w-[352px] border-solid border-2 mx-auto rounded-md cursor-pointer hover:shadow-2xl transition flex flex-col items-center text-center">
+          <div className="mb-8">
+            <svg
+              width="38"
+              height="41"
+              viewBox="0 0 38 41"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M35.4261 6.5625C36.8323 7.1875 37.7698 8.51562 37.7698 10C37.7698 27.3438 27.1448 36.9531 20.4261 39.7656C19.4886 40.1562 18.473 40.1562 17.5355 39.7656C9.17609 36.25 0.269836 25.5469 0.269836 10C0.269836 8.51562 1.12921 7.1875 2.53546 6.5625L17.5355 0.3125C18.0042 0.15625 18.473 0.078125 19.0198 0.078125C19.4886 0.078125 19.9573 0.15625 20.4261 0.3125L35.4261 6.5625ZM19.0198 34.9219C26.2855 31.25 32.4573 22.6562 32.6917 10.8594L19.0198 5.15625V34.9219Z"
+                fill="#F45C20"
+              />
+            </svg>
+          </div>
+
+          <div className="text-lg font-bold max-w-[260px]">
+            Confidential & Safe
+          </div>
+          <div className="text-base p-3">
+            Everything is put before you with no hidden charges or conditions
+          </div>
+        </div>
       </div>
     </div>
   );

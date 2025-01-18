@@ -138,7 +138,6 @@ const Blog = () => {
 
       <a
         className="flex items-center justify-center text-primary font-semibold px-4 py-2 ml-4 transition"
-        href="/"
       >
         Show more blogs
         <FaArrowRight className="ml-2 text-primary size-3" />
