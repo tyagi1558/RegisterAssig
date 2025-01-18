@@ -64,7 +64,7 @@ const Footer = () => {
           </button>
 
           <p className="mt-2 text-gray-400 tracking-widest">
-            © 2024 Registerkaro. All Rights Reserved.
+            © 2025 Registerkaro. All Rights Reserved.
           </p>
         </div>
       </div>

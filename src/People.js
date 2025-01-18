@@ -92,20 +92,6 @@ const CustomerFeedback = () => {
           <h2 className="text-3xl sm:text-4xl font-bold text-white">
             What people say about us
           </h2>
-          <div className="absolute top-0 right-0 mt-4 mr-4 flex space-x-2">
-            <button
-              onClick={previous}
-              className="bg-secondary text-white p-2 rounded-full"
-            >
-              <FaChevronLeft />
-            </button>
-            <button
-              onClick={next}
-              className="bg-secondary text-white p-2 rounded-full"
-            >
-              <FaChevronRight />
-            </button>
-          </div>
         </div>
         <div className="carousel-wrap relative">
           <Slider ref={sliderRef} {...settings}>
