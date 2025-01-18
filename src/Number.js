@@ -14,7 +14,6 @@ const Blog = () => {
       who: "41⁺",
       title: "R&D Engineer",
     },
-
     {
       who: "78⁺",
       title: "Countries",
@@ -37,7 +36,7 @@ const Blog = () => {
       <div className="font-bold text-4xl py-2 pb-10">
         Some Numbers are Important
       </div>
-      <div className="flex justify-center gap-8 flex">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-8 px-4">
         {blog.map((house, index) => (
           <div
             className="bg-white p-5 pb-10 w-full max-w-[352px] mx-auto cursor-pointer"
