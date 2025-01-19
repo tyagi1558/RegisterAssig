@@ -35,33 +35,39 @@ const HappyClients = () => {
 
   return (
     <div className="bg-white text-center mb-16">
+      {/* Section Title */}
       <div className="font-bold text-4xl py-2 pt-9">Our Happy Clients</div>
       <div className="text-gray-400 text-sm pb-10">
-        {" "}
         <>
           Professionally cultivate one-to-one customer service with robust
-          ideas. Dynamically innovate resource- <br />
-          leveling customer service for state of the art customer service.
+          ideas. Dynamically innovate resource-
+          <br />
+          leveling customer service for state-of-the-art customer service.
         </>
       </div>
-      <div className="flex justify-items-end pl-24 flex-wrap">
-        {blog.map((house, index) => (
-          <div
-            className="bg-white p-5 pb-10 w-full max-w-[352px] mx-auto cursor-pointer"
-            key={index}
-          >
-            <div className="font-semibold max-w-[260px] size-16 justify-center">
-              <img src={house.image} />
-            </div>
-          </div>
-        ))}
-      </div>
 
+      {/* Responsive Grid for Logos */}
+      <div className="grid grid-cols-2 gap-4 sm:grid-cols-2 md:grid-cols-3 justify-items-center px-4">
+  {blog.map((house, index) => (
+    <div
+      className="bg-white p-5 pb-10 w-full max-w-[260px] mx-auto cursor-pointer"
+      key={index}
+    >
+      <div className="font-semibold max-w-[260px] size-16 justify-center">
+        <img src={house.image} alt={`Client ${index + 1}`} />
+      </div>
+    </div>
+  ))}
+</div>
+
+
+
+      {/* Show More Button */}
       <a
-        className="flex items-center justify-center text-primary font-semibold px-4 py-2 ml-4 transition"
+        className="flex items-center justify-center text-primary font-semibold px-4 py-2 mt-6 transition cursor-pointer"
       >
         Show more
-        <FaArrowRight className="ml-2 text-primary size-3" />
+        <FaArrowRight className="ml-2 text-primary text-lg" />
       </a>
     </div>
   );
